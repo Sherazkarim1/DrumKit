@@ -1,19 +1,11 @@
-document.querySelectorAll("button")[0].addEventListener("click", function(){
-    alert ("working!!")
-})
+let numberOfButtons = document.querySelectorAll(".drum").length;
 
-for (let i =0; i<document.querySelectorAll(".drum").length ; i++){
-alert ("working!")
-}
-for (var i =0; i< )
+for (let i = 0; i<numberOfButtons; i++){   
 
-
-for (var )
-
-for (let i = 0 < document.querySelector(".drum").length ; i++)
-    document.querySelectorAll("button")[0].addEventListener("click", function(){
+    document.querySelectorAll(".drum")[i].addEventListener("click", function (){
 
         alert ("i got clicked");
-     
 
-)};
+});
+
+}
