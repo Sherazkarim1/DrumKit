@@ -11,5 +11,5 @@ for (let i = 0; i<numberOfButtons; i++){
 }
 
 
-// let audio = new Audio("sounds/tom-1.mp3");
-// audio.play();
+let audio = new Audio("sounds/tom-1.mp3");
+audio.play();
