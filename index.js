@@ -4,12 +4,24 @@ for (let i = 0; i<numberOfButtons; i++){
 
     document.querySelectorAll(".drum")[i].addEventListener("click", function (){
 
-    this.style.color = "white";
+let buttonInnerHTML = this.innerHTML;
 
+makeSound(buttonInnerHTML);
+
+switch (buttonInnerHTML) {
+    case "w":
+            let tom1 = new Audio("sounds/tom-1.mp3"); 
+            tom1.play();
+
+            case "a":
+                let tom2 = new Audio("sounds/tom-2.mp3"); 
+            tom2.play();
+        break;
+
+    default:
+}
 });
 
 }
 
-// let audio = new Audio("sounds/tom-1.mp3");
-// audio.play();
-sfsdsf;lskjdf  sd
+
